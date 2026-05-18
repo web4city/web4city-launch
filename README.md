@@ -58,6 +58,8 @@ Your AI assistant is your **video game console** — it's how you interact with 
 
 **📚 [Build Your AI Assistant →](SETUP-GUIDE.md)** (15 min, FREE!)
 
+**📖 [Read Full Vision →](WEB4CITY-VISION.md)** - Deep dive into the metaverse concept
+
 ---
 
 ### 2️⃣ **Explore Web4City** (Your "Game Store")
