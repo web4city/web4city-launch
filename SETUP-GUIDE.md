@@ -15,9 +15,10 @@
 3. [Step 2: Create Your Telegram Bot](#-step-2-create-your-telegram-bot)
 4. [Step 3: Deploy OpenClaw on Alibaba Cloud](#-step-3-deploy-openclaw-on-alibaba-cloud)
 5. [Step 4: Configure & Link Everything](#-step-4-configure-openclaw-and-link-your-accounts)
-6. [Step 5: Test Your AI Assistant](#-step-5-test-your-ai-assistant)
-7. [Troubleshooting](#-troubleshooting)
-8. [FAQ](#-faq)
+6. [Step 5: Open the Network Port](#-step-5-open-the-network-port)
+7. [Step 6: Start Chatting!](#-step-6-start-chatting)
+8. [Troubleshooting](#-troubleshooting)
+9. [FAQ](#-faq)
 
 ---
 
@@ -244,34 +245,99 @@ Before you begin, make sure you have:
 
 ---
 
-## ✅ Step 5: Test Your AI Assistant
+## 🔓 Step 5: Open the Network Port
+
+### 🎯 Why This Matters:
+For Telegram to communicate with your AI assistant, a specific network port on your server must be open. This is like opening a door for incoming messages!
 
 ### 📌 Instructions:
 
-#### 5.1 Find Your Bot on Telegram
+#### 5.1 Execute the Open Port Command
 
-1. Open **Telegram**
-2. Search for your bot's username (e.g., `@my_alibaba_ai_bot`)
+1. Go back to the **Simple Application Server Console**
+2. Find your server and click the **Instance ID**
+3. Click the **"Application Details"** tab
+4. Find **"Steps to Use OpenClaw"** section
+5. Click **"Execute Command"** under the **"Open Port"** step
+6. This will automatically configure your server's firewall
+7. Wait for **"Port opened successfully!"** confirmation
+
+![Step 5.1](https://via.placeholder.com/800x400?text=Open+Port+Command+Screenshot)
+
+> 🔐 **Security Note:** Only the required port is opened. Your server remains secure!
+
+#### 5.2 Verify Port is Open
+
+1. The command will show which port was opened (usually `18789` for OpenClaw)
+2. You should see a **success message**
+3. If you see an error, try running the command again
+4. Contact support if issues persist
+
+---
+
+## ✅ Step 6: Start Chatting!
+
+### 🎉 Congratulations! Your setup is now complete!
+
+### 📌 Instructions:
+
+#### 6.1 Find Your Bot on Telegram
+
+1. Open the **Telegram app** (phone or desktop)
+2. Search for your bot using the **username** you created
+   - Example: `@my_alibaba_ai_bot`
 3. Open the chat
-4. Click **"START"**
+4. Click the **"START"** button at the bottom
 
-![Step 5.1](https://via.placeholder.com/800x400?text=Bot+Chat+Screenshot)
+![Step 6.1](https://via.placeholder.com/800x400?text=Bot+Chat+Screenshot)
 
-#### 5.2 Send a Test Message
+#### 6.2 Send Your First Message
 
-1. Type: `Hello!` or `Who are you?`
+1. Type a simple message: `Hello!` or `Hi there!`
 2. Wait a few seconds
-3. Your bot should respond!
+3. **Your AI assistant should respond!** 🎉
+4. It's powered by **Alibaba Cloud's free tokens!**
 
-#### 5.3 Test Different Features
+#### 6.3 Test Different Features
 
-Try these commands:
+Try these test messages:
 - `/help` - See available commands
-- `/status` - Check bot status
-- Ask a question: `"What's the weather like?"`
-- Request help: `"Help me write an email"`
+- `/status` - Check bot status  
+- `"What's the weather like?"` - Ask a question
+- `"Help me write an email"` - Request assistance
+- `"Tell me a joke"` - Have some fun!
+- `"What can you do?"` - Learn capabilities
 
-![Step 5.2](https://via.placeholder.com/800x400?text=Test+Message+Screenshot)
+![Step 6.2](https://via.placeholder.com/800x400?text=Test+Message+Screenshot)
+
+#### 6.4 What If It Doesn't Work?
+
+If your bot doesn't respond:
+1. ✅ Check server status is **"Running"**
+2. ✅ Verify you completed **Step 5** (Open Port)
+3. ✅ Confirm bot token is correct
+4. ✅ Try `/start` command again
+5. ✅ Check **Troubleshooting** section below
+
+---
+
+## 🎊 You Did It!
+
+Your AI assistant is now **live and running 24/7**! 🚀
+
+### What You've Built:
+- ✅ Cloud-hosted AI assistant
+- ✅ Powered by Alibaba Cloud (70M free tokens!)
+- ✅ Accessible via Telegram
+- ✅ Running on OpenClaw framework
+- ✅ Ready to customize and expand!
+
+### Next Steps:
+- 🎨 **Customize** your bot's personality
+- 🔗 **Add integrations** (email, calendar, etc.)
+- 📊 **Monitor usage** in Alibaba Cloud console
+- 🌐 **Share** with friends and community
+- 💡 **Build advanced features** with OpenClaw
 
 ---
 

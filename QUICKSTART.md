@@ -2,6 +2,8 @@
 
 > ⚡ **TL;DR Version** - Full guide: [SETUP-GUIDE.md](SETUP-GUIDE.md)
 
+> ⏱️ **Total Time:** 18-22 minutes (updated with port step!)
+
 ---
 
 ## ① Get Alibaba API Key (3 min)
@@ -54,7 +56,18 @@
 
 ---
 
-## ⑤ Test (1 min)
+## ⑤ Open Port (2 min)
+
+1. Still in **Application Details**
+2. Click: **Execute Command** under **"Open Port"**
+3. Firewall auto-configures
+4. Wait for **"Port opened successfully!"**
+
+🔓 **Critical!** Telegram needs this to reach your bot!
+
+---
+
+## ⑥ Test (1 min)
 
 1. Open Telegram
 2. Search your bot username
