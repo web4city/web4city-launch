@@ -16,6 +16,21 @@ We're building the future of urban life on the blockchain. Join the movement! �
 
 ---
 
+## 🆕 NEW: Build Your Own AI Assistant!
+
+### 🤖 Get Your FREE AI Bot in 15 Minutes!
+
+We've created a complete step-by-step guide to help you build your own AI assistant using:
+- ✅ **Alibaba Cloud** (70 million FREE tokens for new users!)
+- ✅ **OpenClaw** (open-source AI framework)
+- ✅ **Telegram** (your bot's home)
+
+**📚 [View Complete Setup Guide →](SETUP-GUIDE.md)**
+
+> ⏱️ Time: 15-20 min | 💰 Cost: FREE | 🎯 Level: Beginner
+
+---
+
 ## ✨ Features
 
 > "We are not just building an app, we are building a movement."
