@@ -59,10 +59,14 @@ Web4City is a decentralized platform that powers:
 
 ---
 
-## 🔗 Links
+## 📚 Resources
 
-**Connect with us:**
+### AI Assistant Setup:
+- 📖 **Complete Guide:** [SETUP-GUIDE.md](SETUP-GUIDE.md) - Full tutorial with screenshots
+- ⚡ **Quick Start:** [QUICKSTART.md](QUICKSTART.md) - 5-step cheat sheet
+- 📱 **Social Media:** [SOCIAL-MEDIA-POSTS.md](SOCIAL-MEDIA-POSTS.md) - Ready-to-use captions
 
+### Connect with us:
 - 🌐 **Website:** [https://web4city.xyz](https://web4city.xyz)
 - 💬 **Telegram:** @web4city
 - 🎮 **Discord:** Coming Soon
